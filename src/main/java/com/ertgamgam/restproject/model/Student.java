@@ -26,4 +26,7 @@ public class Student {
     @Column(name = "Surname", nullable = false)
     private String surname;
 
+    @Column(name = "studentNo", nullable =false)
+    private int studentNo;
+
 }
